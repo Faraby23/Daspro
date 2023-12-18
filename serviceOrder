@@ -1,0 +1,66 @@
+package model;
+
+public class serviceOrder {
+    private String vendor;
+    private String customer;
+    private String service;
+    private String scheduledTime;
+
+    
+    /**
+     * @return String return the vendor
+     */
+    public String getVendor() {
+        return vendor;
+    }
+
+    /**
+     * @param String the vendor to set
+     */
+    public void setVendor(String vendor) {
+        this.vendor = vendor;
+    }
+
+    /**
+     * @return String return the customer
+     */
+    public String getCustomer() {
+        return customer;
+    }
+
+    /**
+     * @param String the customer to set
+     */
+    public void setCustomer(String customer) {
+        this.customer = customer;
+    }
+
+    /**
+     * @return service return the cleaningService
+     */
+    public String getService() {
+        return service;
+    }
+
+    /**
+     * @param barang the barang to set
+     */
+    public void setService(String service) {
+        this.service = service;
+    }
+
+    /**
+     * @return String return the scheduledTime
+     */
+    public String getScheduledTime() {
+        return scheduledTime;
+    }
+
+    /**
+     * @param hargaJual the scheduledTime to set
+     */
+    public void setScheduledTme(String scheduledTime) {
+        this.scheduledTime = scheduledTime;
+    }
+
+}
