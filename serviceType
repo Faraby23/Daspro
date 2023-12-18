@@ -1,0 +1,30 @@
+package model;
+public class serviceType {
+    private String serviceList;
+    private double serviceCost;
+
+    public serviceType setIdBarang(String serviceList){
+        this.serviceList = serviceList;
+        return this;
+    }
+    public serviceType setHargaBarang(double serviceCost){
+        this.serviceCost = serviceCost;
+        return this;
+    }
+
+
+    /**
+     * @return String return the serviceList
+     */
+    public String getIdServiceLisString() {
+        return serviceList;
+    }
+
+    /**
+     * @return int return the serviceCost
+     */
+    public double getHargaBarang() {
+        return serviceCost;
+    }
+
+}
